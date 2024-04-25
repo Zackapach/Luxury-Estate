@@ -1,0 +1,45 @@
+html{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    top: 0;
+    width: 1444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.newform{
+background-color: pink;
+margin-top : 50px;
+margin-bottom: 50px;
+width: 450px;
+
+}
+label {
+    display: inline-block;
+    margin-right: 10px;
+    height: 50px;
+    width: 100px;
+}
+input {
+height: 30px;
+border-radius: 10px;
+}
+::placeholder {
+    color: grey;
+}
